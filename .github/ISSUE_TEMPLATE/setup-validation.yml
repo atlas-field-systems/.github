@@ -1,0 +1,11 @@
+name: Setup validation
+description: Record a focused organization or tooling validation result.
+title: "Setup validation: "
+labels: []
+body:
+  - type: textarea
+    attributes:
+      label: What was validated?
+      description: State the capability and the live evidence.
+    validations:
+      required: true
